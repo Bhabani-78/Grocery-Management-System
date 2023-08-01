@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+    background-image: url(https://thumbs.dreamstime.com/b/frutas-y-verduras-frescas-en-estante-en-supermercado-73137481.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+h1,h3{
+    text-align: center;
+    margin-bottom: 40px;
+}.container{
+    width: 400px;
+    background: rgba(254, 239, 23, 0.998);
+    margin:12% auto;
+    padding:50px 0;
+    color: rgba(187, 0, 0, 0.815);
+    box-shadow: rgb(0, 15, 10);
+    border-radius: 20px;
+}
+.form{
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid rgb(0, 84, 129);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.form input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color:rgb(11, 0, 0);
+}
+.fa{
+    margin-right: 10px;
+}
+.btn input{
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px  0;
+    border: 1px solid rgb(8, 117, 180);
+    cursor: pointer;
+    background: transparent;
+
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+   
+</head>
+<body>
+    <form action="http://localhost/grocery/index.html" method="POST">
+    <div class="container">
+        <h1>Login as Employee</h1>
+        <div class="form">
+            <i class="fa-solid fa-envelope"></i>
+       <input type="text" placeholder="User name"name="email" id="">
+    </div>
+       <div class="form">
+        <i class="fa-solid fa-key"></i>
+       <input type="password" placeholder="Password"name="password" id="">
+    </div>
+    <div class="btn">
+        <input type="submit" value="Login">
+    </div>
+    <h3>Don't have account? <a href="registration.html"> Signup Now</a></h3>
+    </div>
+</form>
+</body>
+<script src="js/custom/login.js"></script>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        body{
+            background-color: rgb(157, 190, 190);
+        }
+        .box{
+            padding:20px 30px;
+            border: 5px solid grey;
+            text-align: center;
+            border-radius: 20px;
+            height: auto;
+            width:500px;
+            background-color: aqua;
+        }
+        /* .btn input{
+            background-color: rgb(7, 252, 48);
+        } */
+    </style>
+</head>
+<body>
+    <h1>Welcome to Grocery Store management !!</h1><br><br><br>
+    <form action="/grocery/register" method="POST">
+        <strong>
+    <center>
+    <div class="box">
+        <h3>First name: <input type="text" name="firstname" id=""></h3>
+        <h3>Last name: <input type="text" name="lastname" id=""></h3>
+        <h3>Email id: <input type="email" name="email" id=""></h3>
+        <h3>Password: <input type="password" name="password" id=""></h3>
+        <h3>Mobile no: <input type="number" name="mobile" id=""></h3>
+        <div class="btn">
+            <input type="submit" value="Submit">
+        </div>
+        <br>
+        <p class="bottom">Already have an account?  <a class="bottom" href="/grocery/login"> Sign In here</a></p>
+    </div>
+</center>
+</strong>
+</form>
+</body>
+</html>
